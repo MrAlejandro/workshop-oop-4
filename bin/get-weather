@@ -1,0 +1,22 @@
+#!/usr/bin/env php
+
+<?php
+$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
+
+if (file_exists($autoloadPath1)) {
+    require_once $autoloadPath1;
+} else {
+    require_once $autoloadPath2;
+}
+
+$weather = (new \App\App())->run();
+$preparedData = [
+    "Weather forecast for: {$weather->date}",
+    "The temperature is: {$weather->temperature}",
+    "The air pressure is: {$weather->airPressure}",
+    "The humidity is: {$weather->humidity}",
+    ''
+];
+
+echo implode(PHP_EOL, $preparedData);

@@ -1,0 +1,171 @@
+{
+    "consolidated_weather": [
+        {
+            "id": 5292659572736000,
+            "weather_state_name": "Light Cloud",
+            "weather_state_abbr": "lc",
+            "wind_direction_compass": "NW",
+            "created": "2019-02-17T03:35:44.038301Z",
+            "applicable_date": "2019-02-16",
+            "min_temp": -1.4366666666666668,
+            "max_temp": 7.760000000000001,
+            "the_temp": 5.585,
+            "wind_speed": 7.709740305615208,
+            "wind_direction": 321.00114903061456,
+            "air_pressure": 1016.915,
+            "humidity": 58,
+            "visibility": 15.395092658872185,
+            "predictability": 70
+        },
+        {
+            "id": 6308153016713216,
+            "weather_state_name": "Heavy Cloud",
+            "weather_state_abbr": "hc",
+            "wind_direction_compass": "ENE",
+            "created": "2019-02-17T03:35:47.003043Z",
+            "applicable_date": "2019-02-17",
+            "min_temp": -1.4866666666666666,
+            "max_temp": 2.19,
+            "the_temp": 1.3,
+            "wind_speed": 3.573904434935974,
+            "wind_direction": 76.7143625608287,
+            "air_pressure": 1022.545,
+            "humidity": 64,
+            "visibility": 15.737778871391075,
+            "predictability": 71
+        },
+        {
+            "id": 5502955801280512,
+            "weather_state_name": "Hail",
+            "weather_state_abbr": "h",
+            "wind_direction_compass": "NE",
+            "created": "2019-02-17T03:35:50.398744Z",
+            "applicable_date": "2019-02-18",
+            "min_temp": -3.3699999999999997,
+            "max_temp": 3.8066666666666666,
+            "the_temp": 1.535,
+            "wind_speed": 4.088885987662054,
+            "wind_direction": 37.24999999999999,
+            "air_pressure": 1021.015,
+            "humidity": 84,
+            "visibility": 7.724265290702299,
+            "predictability": 82
+        },
+        {
+            "id": 6022265229541376,
+            "weather_state_name": "Showers",
+            "weather_state_abbr": "s",
+            "wind_direction_compass": "NNW",
+            "created": "2019-02-17T03:35:53.011119Z",
+            "applicable_date": "2019-02-19",
+            "min_temp": -3.796666666666667,
+            "max_temp": 1.6733333333333331,
+            "the_temp": 0.305,
+            "wind_speed": 7.405841262061561,
+            "wind_direction": 334.70288591040946,
+            "air_pressure": 1027.965,
+            "humidity": 63,
+            "visibility": 16.53344468305098,
+            "predictability": 73
+        },
+        {
+            "id": 6056955059634176,
+            "weather_state_name": "Sleet",
+            "weather_state_abbr": "sl",
+            "wind_direction_compass": "ENE",
+            "created": "2019-02-17T03:35:56.191058Z",
+            "applicable_date": "2019-02-20",
+            "min_temp": -3.8633333333333333,
+            "max_temp": 0.33999999999999997,
+            "the_temp": -1.335,
+            "wind_speed": 3.95993748486638,
+            "wind_direction": 78.12508802195552,
+            "air_pressure": 1039.4450000000002,
+            "humidity": 63,
+            "visibility": 13.426278036268194,
+            "predictability": 85
+        },
+        {
+            "id": 5384335045689344,
+            "weather_state_name": "Thunder",
+            "weather_state_abbr": "t",
+            "wind_direction_compass": "N",
+            "created": "2019-02-17T03:35:59.115412Z",
+            "applicable_date": "2019-02-21",
+            "min_temp": -1.1300000000000001,
+            "max_temp": 6.846666666666667,
+            "the_temp": -2.36,
+            "wind_speed": 4.442940030223495,
+            "wind_direction": 4.1218426373705,
+            "air_pressure": 1043.08,
+            "humidity": 81,
+            "visibility": 7.450240594925634,
+            "predictability": 80
+        }
+    ],
+    "time": "2019-02-16T23:46:56.203733-05:00",
+    "sun_rise": "2019-02-16T06:48:55.260687-05:00",
+    "sun_set": "2019-02-16T17:31:49.051159-05:00",
+    "timezone_name": "LMT",
+    "parent": {
+        "title": "New York",
+        "location_type": "Region / State / Province",
+        "woeid": 2347591,
+        "latt_long": "42.855350,-76.501671"
+    },
+    "sources": [
+        {
+            "title": "BBC",
+            "slug": "bbc",
+            "url": "http://www.bbc.co.uk/weather/",
+            "crawl_rate": 180
+        },
+        {
+            "title": "Forecast.io",
+            "slug": "forecast-io",
+            "url": "http://forecast.io/",
+            "crawl_rate": 480
+        },
+        {
+            "title": "HAMweather",
+            "slug": "hamweather",
+            "url": "http://www.hamweather.com/",
+            "crawl_rate": 360
+        },
+        {
+            "title": "Met Office",
+            "slug": "met-office",
+            "url": "http://www.metoffice.gov.uk/",
+            "crawl_rate": 180
+        },
+        {
+            "title": "OpenWeatherMap",
+            "slug": "openweathermap",
+            "url": "http://openweathermap.org/",
+            "crawl_rate": 360
+        },
+        {
+            "title": "Weather Underground",
+            "slug": "wunderground",
+            "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+            "crawl_rate": 720
+        },
+        {
+            "title": "World Weather Online",
+            "slug": "world-weather-online",
+            "url": "http://www.worldweatheronline.com/",
+            "crawl_rate": 360
+        },
+        {
+            "title": "Yahoo",
+            "slug": "yahoo",
+            "url": "http://weather.yahoo.com/",
+            "crawl_rate": 180
+        }
+    ],
+    "title": "New York",
+    "location_type": "City",
+    "woeid": 2459115,
+    "latt_long": "40.71455,-74.007118",
+    "timezone": "US/Eastern"
+}
