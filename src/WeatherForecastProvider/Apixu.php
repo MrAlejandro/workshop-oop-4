@@ -7,7 +7,7 @@ use RuntimeException;
 use App\WeatherMetaInfo;
 use App\DataLoader\HttpLoader;
 
-class Apixu extends Forecaster
+class Apixu extends ForecastProvider
 {
     protected const FORECAST_API_URL = 'https://api.apixu.com/v1/current.json';
 

@@ -2,13 +2,11 @@
 
 namespace App\WeatherForecastProvider;
 
-use App\DataLoader\HttpDataLoader;
-use App\DataLoader\HttpLoader;
 use Carbon\Carbon;
 use RuntimeException;
 use App\WeatherMetaInfo;
 
-class MetaWeather extends Forecaster
+class MetaWeather extends ForecastProvider
 {
     protected const LOCATION_API_URL = 'https://www.metaweather.com/api/location/search/';
     protected const FORECAST_API_URL = 'https://www.metaweather.com/api/location/';
