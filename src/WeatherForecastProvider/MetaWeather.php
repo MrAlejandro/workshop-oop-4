@@ -8,17 +8,10 @@ use Carbon\Carbon;
 use RuntimeException;
 use App\WeatherMetaInfo;
 
-class MetaWeather implements Forecaster
+class MetaWeather extends Forecaster
 {
     protected const LOCATION_API_URL = 'https://www.metaweather.com/api/location/search/';
     protected const FORECAST_API_URL = 'https://www.metaweather.com/api/location/';
-
-    protected $httpLoader;
-
-    public function __construct(HttpLoader $httpLoader = null)
-    {
-        $this->httpLoader = $httpLoader ?: new HttpDataLoader();
-    }
 
     public function getForecast(string $cityName): WeatherMetaInfo
     {

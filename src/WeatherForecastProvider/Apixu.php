@@ -2,23 +2,21 @@
 
 namespace App\WeatherForecastProvider;
 
-use App\DataLoader\HttpDataLoader;
-use App\DataLoader\HttpLoader;
 use Carbon\Carbon;
 use RuntimeException;
 use App\WeatherMetaInfo;
+use App\DataLoader\HttpLoader;
 
-class Apixu implements Forecaster
+class Apixu extends Forecaster
 {
     protected const FORECAST_API_URL = 'https://api.apixu.com/v1/current.json';
 
-    protected $httpLoader;
     protected $apiKey;
 
     public function __construct(string $apiKey, HttpLoader $httpLoader = null)
     {
         $this->apiKey = $apiKey;
-        $this->httpLoader = $httpLoader ?: new HttpDataLoader();
+        parent::__construct($httpLoader);
     }
 
     public function getForecast(string $cityName): WeatherMetaInfo
